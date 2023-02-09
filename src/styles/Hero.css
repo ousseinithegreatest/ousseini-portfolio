@@ -1,0 +1,44 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    margin-top: 80px;
+    background: #00bd95;
+    border-radius: 100%;
+    width: 380px;
+    height: 380px;
+    box-shadow: -2px 10px 400px -11px rgba(0, 189, 149, 0.75);
+    -webkit-box-shadow: -2px 10px 400px -11px rgba(0, 189, 149, 0.75);
+    -moz-box-shadow: -2px 10px 400px -11px rgba(0, 189, 149, 0.75);
+    position: relative;
+}
+
+.avatar img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -250px;
+}
+
+.about {
+    width: 700px;
+    margin-bottom: 120px;
+}
+
+.about h4 {
+    font-size: 50px;
+}
+
+.about h4 span {
+    color: #00bd95;
+    text-shadow: 2px 2px 15px rgba(0, 189, 149, 0.51);
+}
+
+.about p {
+    font-size: 25px;
+}
