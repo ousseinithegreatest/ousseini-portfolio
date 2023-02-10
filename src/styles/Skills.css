@@ -1,0 +1,33 @@
+.skills-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.skills-container h3 {
+    color: #00bd95;
+    text-shadow: 2px 2px 15px rgba(0, 189, 149, 0.51);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.skills-container p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.items {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.items li {
+    margin: 20px 30px;
+}
+
+.items img {
+    width: 86px;
+    height: 86px;
+}
