@@ -36,14 +36,14 @@ const skills = [
         img: './images/skills/net-core.svg'
       },
       {
-        id: 'Node JS',
-        img: './images/skills/html5.svg'
+        id: 'Django',
+        img: './images/skills/django.svg'
       },
     ],
     languages: [
       {
-        id: 'Java',
-        img: './images/skills/java.svg'
+        id: 'Dart',
+        img: './images/skills/dart.svg'
       },
       {
         id: 'Python',

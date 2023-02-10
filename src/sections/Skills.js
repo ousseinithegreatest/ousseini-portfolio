@@ -3,14 +3,28 @@ import SkillsData from "../data/Skills"
 import '../styles/Skills.css'
 
 export const Skills = () => {
-    const [skills, setSkills] = useState([])
+    const [frontendSkills, setFrontendSkills] = useState([])
+    const [backendSkills, setBackendSkills] = useState([])
+    const [languageSkills, setLanguageSkills] = useState([])
 
     useEffect(() => {
         let frontend = [];
         SkillsData.forEach((skill) => {
             frontend = [...frontend, ...skill.frontend];
         });
-        setSkills(frontend)
+        setFrontendSkills(frontend)
+
+        let backend = []
+        SkillsData.forEach((skill) => {
+            backend = [...backend, ...skill.backend];
+        });
+        setBackendSkills(backend)
+
+        let languages = []
+        SkillsData.forEach((skill) => {
+            languages = [...languages, ...skill.languages];
+        });
+        setLanguageSkills(languages)
     }, []);
     return (
         <div className='skills-container'>
@@ -19,15 +33,40 @@ export const Skills = () => {
             <h3>Front-end</h3>
             <ul className="items">
                 {
-                    skills.map((item) => {
+                    frontendSkills.map((item) => {
                         return (
 
-                            <li key={item.id}><img src={item.img} alt={item.id} /></li>
+                            <li key={item.id}><img src={item.img} alt={item.id} srcSet="ok" /></li>
 
                         );
                     })
                 }
             </ul>
+            <h3>Back-end</h3>
+            <ul className="items">
+                {
+                    backendSkills.map((item) => {
+                        return (
+
+                            <li key={item.id}><img src={item.img} alt={item.id} srcSet="ok" /></li>
+
+                        );
+                    })
+                }
+            </ul>
+            <h3>Languages</h3>
+            <ul className="items">
+                {
+                    languageSkills.map((item) => {
+                        return (
+
+                            <li key={item.id}><img src={item.img} alt={item.id} srcSet="ok" /></li>
+
+                        );
+                    })
+                }
+            </ul>
+
         </div>
     )
 }
