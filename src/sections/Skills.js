@@ -36,7 +36,7 @@ export const Skills = () => {
                     frontendSkills.map((item) => {
                         return (
 
-                            <li key={item.id}><img src={item.img} alt={item.id} srcSet="ok" /></li>
+                            <li key={item.id}><img src={item.img} alt={item.id} /></li>
 
                         );
                     })
@@ -48,7 +48,7 @@ export const Skills = () => {
                     backendSkills.map((item) => {
                         return (
 
-                            <li key={item.id}><img src={item.img} alt={item.id} srcSet="ok" /></li>
+                            <li key={item.id}><img src={item.img} alt={item.id} /></li>
 
                         );
                     })
@@ -60,7 +60,7 @@ export const Skills = () => {
                     languageSkills.map((item) => {
                         return (
 
-                            <li key={item.id}><img src={item.img} alt={item.id} srcSet="ok" /></li>
+                            <li key={item.id}><img src={item.img} alt={item.id} /></li>
 
                         );
                     })
