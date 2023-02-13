@@ -7,22 +7,22 @@ const projectList = [
   {
     name: "Netflix clone app",
     image: Netflix,
-    technos: "Flutter",
+    repos: "https://github.com/ousseinithegreatest/nextflix",
   },
   {
     name: "Carpooling app",
     image: Carpool,
-    technos: "Flutter, Firebase",
+    repos: "https://github.com/ousseinithegreatest/toukki_carpoling_mobile_app",
   },
   {
     name: "Cat web app",
     image: Cats,
-    technos: "React",
+    repos: "https://github.com/ousseinithegreatest/cats-miaw",
   },
   {
-    name: "Netflix clone",
+    name: "Spotify clone",
     image: Spotify,
-    technos: "Flutter",
+    repos: "https://github.com/ousseinithegreatest/playero",
   },
 ];
 
