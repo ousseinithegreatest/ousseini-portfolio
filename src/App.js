@@ -1,9 +1,9 @@
-import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
-import { Experiences } from "./sections/Experiences";
 import { Hero } from "./sections/Hero";
-import { Projects } from "./sections/Projects";
 import { Skills } from "./sections/Skills";
+import { Projects } from "./sections/Projects";
+import { Experiences } from "./sections/Experiences";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (

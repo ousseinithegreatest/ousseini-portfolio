@@ -46,3 +46,23 @@
         padding-left: 0;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .skills-container {
+        width: 350px;
+        text-align: justify;
+        padding: 7px;
+
+    }
+
+    .skills-container h2 {
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .items {
+        width: 300px;
+        display: flex;
+    }
+}
