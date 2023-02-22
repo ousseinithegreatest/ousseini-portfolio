@@ -88,6 +88,15 @@
     }
 }
 
+@media only screen and (max-width: 425px) {
+    .projectList {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 /*
 @media only screen and (max-width: 320px) {
     .projectList {

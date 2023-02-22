@@ -25,3 +25,13 @@
         font-size: 30px;
     }
 }
+
+@media only screen and (max-width: 425px) {
+    .experience {
+        width: 350px;
+    }
+
+    .experience h2 {
+        font-size: 30px;
+    }
+}
