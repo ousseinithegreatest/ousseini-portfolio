@@ -5,3 +5,13 @@
     text-transform: uppercase;
     font-size: 40px;
 }
+
+@media only screen and (max-width: 320px) {
+    .experience {
+        width: 300px;
+    }
+
+    .experience h2 {
+        font-size: 30px;
+    }
+}
